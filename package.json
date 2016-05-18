@@ -1,0 +1,34 @@
+{
+  "name": "shopapp",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {},
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "autoprefixer": "^6.3.6",
+    "babel-core": "^6.9.0",
+    "babel-loader": "^6.2.4",
+    "babel-polyfill": "^6.9.0",
+    "babel-preset-es2015": "^6.9.0",
+    "babel-register": "^6.9.0",
+    "body-parser": "^1.15.1",
+    "cssnano": "^3.6.1",
+    "express": "^4.13.4",
+    "gulp": "^3.9.1",
+    "gulp-ext-replace": "^0.3.0",
+    "gulp-postcss": "^6.1.1",
+    "mysql": "^2.10.2",
+    "postcss": "^5.0.21",
+    "postcss-scss": "^0.1.8",
+    "precss": "^1.4.0",
+    "winston": "^2.2.0"
+  },
+  "babel": {
+    "presets": [
+      "es2015",
+      "stage-0"
+    ]
+  }
+}
