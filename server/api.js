@@ -1,5 +1,6 @@
 var express = require('express');
 var bodyParser = require('body-parser');
+var routes = require('./routes');
 
 //initialize the app
 var app = module.exports = express();
@@ -14,9 +15,7 @@ app.use(bodyParser.urlencoded({
     extended: false
 }));
 
-app.get('/', function(req, res) {
-    res.send("Hello!!!");
-});
+routes(app);
 
 process.on('uncaughtException', function(err, req, res) {
     console.log(err.stack);
